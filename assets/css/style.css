@@ -1,6 +1,7 @@
 /* Style for table */
 body {
     font-family: 'Source Sans Pro','Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
 }
 .table-customize {
     width: 100%;
@@ -16,6 +17,10 @@ body {
 .table-customize thead, .table-customize tbody {
     width: 100%;
 }
+.table-customize thead {
+    border-top:1px solid #ddd;
+    background-color: #f9fafb;
+}
 .table-responsive {
     display: table;
 }
@@ -23,13 +28,13 @@ body {
     color: rgba(0,0,0,.87);
     border-bottom: none;
     padding: 10px 14px;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 600;
 }
 .table-customize > tbody > tr > td {
     vertical-align: middle;
     padding: 15px 14px;
-    color: #979797;
+    color: #4183c4;
     font-size: 14px;
 }
 .table-customize > tbody > tr > td a {
@@ -47,6 +52,64 @@ body {
     right: 0;
     margin: auto;
     top: 14px;
+}
+.loader{
+    margin: 0 0 2em;
+    height: 100px;
+    width: 20%;
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    display: none;
+}
+
+/*
+  Set the color of the icon
+*/
+svg path,
+svg rect{
+    fill: #4267b2;
+}
+.mainstage {
+    background-color: #1b6d85;
+    color: white;
+}
+.mainstage header {
+    background-color: white;
+    color: #363636;
+}
+.mainstage .navbar {
+    padding: 20px;
+}
+
+.Navbar-logo {
+    position: fixed;
+    z-index: 10000;
+    margin: 0 auto 20px;
+    top: 15px;
+    display: block;
+    left: 50%;
+    margin-left: -92.5px;
+    transform: translate3d(0, 0, 0);
+    transition: all 250ms ease-out;
+}
+.Navbar-logo img {
+    width: 185px;
+    height: auto;
+}
+
+.icon-facebook {
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .text-res {
+        display : inline-block;
+    }
+    .mainstage a svg {
+        width: 20px;
+        height: 20px;
+    }
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .table-responsive,
