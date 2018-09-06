@@ -71,15 +71,18 @@ svg rect{
     fill: #4267b2;
 }
 .mainstage {
-    background-color: #1b6d85;
-    color: white;
-}
-.mainstage header {
     background-color: white;
     color: #363636;
 }
+.mainstage header {
+    background-color: #1b6d85;
+    color: white;
+    height: 70px;
+}
 .mainstage .navbar {
-    padding: 20px;
+    padding: 16px;
+    background-color: #1b6d85;
+    color: white;
 }
 
 .Navbar-logo {
@@ -89,9 +92,18 @@ svg rect{
     top: 15px;
     display: block;
     left: 50%;
-    margin-left: -92.5px;
+    margin-left: -203px;
     transform: translate3d(0, 0, 0);
     transition: all 250ms ease-out;
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Navbar-logo:hover {
+    color: white;
+    text-decoration: none;
 }
 .Navbar-logo img {
     width: 185px;
