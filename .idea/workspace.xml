@@ -15,17 +15,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+            <state relative-caret-position="510">
+              <caret line="233" column="33" lean-forward="true" selection-start-line="233" selection-start-column="33" selection-end-line="233" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/manager/event.php" />
         <option value="$PROJECT_DIR$/manager/member.php" />
         <option value="$PROJECT_DIR$/event/22082018_30082018_event.php" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -322,12 +322,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534732486446</updated>
       <workItem from="1534732487757" duration="5880000" />
-      <workItem from="1534849719565" duration="100705000" />
+      <workItem from="1534849719565" duration="101630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106585000" />
+    <option name="totallyTimeSpent" value="107510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="988" extended-state="0" />
@@ -738,18 +738,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="147" column="54" lean-forward="false" selection-start-line="147" selection-start-column="54" selection-end-line="147" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="233" column="33" lean-forward="true" selection-start-line="233" selection-start-column="33" selection-end-line="233" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -133,9 +133,6 @@ text {
     background-size: cover;
     height: 100%;
 }
-.event-body {
-    height: 100%;
-}
 .event-wrapper {
     max-width: 1280px;
     margin: 0 auto;
@@ -234,7 +231,7 @@ text {
     font-size: 15px;
 }
 .home-news-primary-item-holder {
-    width: 33%;
+    width: calc(33.3333% - 3px );
     position: relative;
     display: inline-block;
     margin-bottom: 30px;
@@ -303,6 +300,14 @@ text {
     background-color: #ffffff;
     height: 200px;
     border-radius: 0 0 5px 5px;
+}
+.home-news-primary-item-holder .bottom-block a {
+    color: #4549a8;
+    font-family: "roboto_slabbold";
+    text-decoration: underline;
+}
+.home-news-primary-item-holder .bottom-block a:hover {
+    text-decoration: none;
 }
 @media screen and (max-width: 1024px) {
     .text-res {
@@ -378,5 +383,8 @@ text {
     }
     .table-responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child span {
         left: 32%;
+    }
+    .desktop-right p, body {
+        font-size: 20px;
     }
 }
